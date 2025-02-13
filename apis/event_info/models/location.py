@@ -26,7 +26,7 @@ class Location(models.Model):
     class Meta:
         ordering = ['location_name']
         indexes = [
-            models.Index(fields=['location_city', 'location_country'])
+            models.Index(fields=['location_city','location_country'])
         ]
         verbose_name = 'location'
         verbose_name_plural = 'locations'

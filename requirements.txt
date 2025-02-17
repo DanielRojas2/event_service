@@ -6,3 +6,4 @@ drf-yasg==1.21.8
 psycopg2==2.9.10
 pytest-django==4.10.0
 pytest-mock==3.14.0
+cloudinary

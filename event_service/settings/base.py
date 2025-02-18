@@ -118,7 +118,7 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 cloudinary.config( 
-    cloud_name = "sample", 
+    cloud_name = os.getenv('CLOUD_NAME'), 
     api_key = os.getenv('CLOUD_KEY'), 
     api_secret = os.getenv('CLOUD_SECRET'),
     secure = True
